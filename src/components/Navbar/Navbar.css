@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.nav-logo{
+    width: 10%;
+}
 
 .nav-menu{
     list-style: none;
@@ -33,10 +36,10 @@
     text-decoration: none;
     color: white;
 }
-.nav-mob-close{
+#nav-mob-close{
     display: none;
 }
-.nav-mob-open{
+#nav-mob-open{
     display: none;
 }
 
@@ -47,13 +50,13 @@
     .nav-connect{
         display: none;
     }
-    .nav-mob-open{
+    #nav-mob-open{
         display: block;
         position: fixed;
         right:30px;
         cursor: pointer;
     }
-    .nav-mob-close{
+    #nav-mob-close{
         display: block;
         position: relative;
         top: 30px;

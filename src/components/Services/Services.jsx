@@ -1,5 +1,6 @@
 import React from 'react'
 import './Services.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 // import Services_Data from '../../assets/services_data'
 
 const Services = () => {
@@ -21,8 +22,8 @@ const Services = () => {
                     <p>"Web development is the process of building, programming....</p>
 
                     <div className="services-readmore">
-                        <p>Read More</p>
-                        <img src="" alt="" />
+                        <p>Read More </p>
+                        <i className="bi bi-arrow-right" ></i>
                     </div>
                 </div>
                 <div className="services-format">
@@ -31,43 +32,43 @@ const Services = () => {
                     <p>"Web development is the process of building, programming....</p>
                     <div className="services-readmore">
                         <p>Read More</p>
-                        <img src="" alt="" />
+                        <i className="bi bi-arrow-right"></i>
                     </div>
                 </div>
-                 <div className="services-format">
+                <div className="services-format">
                     <h3>01</h3>
                     <h2>Web Development</h2>
                     <p>"Web development is the process of building, programming....</p>
                     <div className="services-readmore">
                         <p>Read More</p>
-                        <img src="" alt="" />
+                        <i className="bi bi-arrow-right" ></i>
                     </div>
                 </div>
-                 <div className="services-format">
+                <div className="services-format">
                     <h3>01</h3>
                     <h2>Web Development</h2>
                     <p>"Web development is the process of building, programming....</p>
                     <div className="services-readmore">
                         <p>Read More</p>
-                        <img src="" alt="" />
+                        <i className="bi bi-arrow-right" ></i>
                     </div>
                 </div>
-                 <div className="services-format">
+                <div className="services-format">
                     <h3>01</h3>
                     <h2>Web Development</h2>
                     <p>"Web development is the process of building, programming....</p>
                     <div className="services-readmore">
                         <p>Read More</p>
-                        <img src="" alt="" />
+                        <i className="bi bi-arrow-right" ></i>
                     </div>
                 </div>
-                 <div className="services-format">
+                <div className="services-format">
                     <h3>01</h3>
                     <h2>Web Development</h2>
                     <p>"Web development is the process of building, programming....</p>
                     <div className="services-readmore">
                         <p>Read More </p>
-                        <img src="" alt="" />
+                        <i className="bi bi-arrow-right" ></i>
                     </div>
                 </div>
             </div>

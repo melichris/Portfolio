@@ -32,35 +32,35 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-        <div id='contact' className="contact-title">        
-            <h1>Get in touch</h1>
-        </div>
-        <div className="contact-section">
-            <div className="contact-left">
-                <h1>Let's talk</h1>
-                <p>I am currently available to take a new project, so feel free to contact me eny time</p>
-                <div className="contact-details">
-                    <div className="contact-detail">
-                        <p>melichristian51@gmail.com</p>
-                    </div>
-                     <div className="contact-detail">
-                        <p>+237-653-369-392</p>                        
-                    </div>
-                     <div className="contact-detail">
-                        <p>Douala- Cameroon</p>                        
-                    </div>
-                </div>
+      <div id='contact' className="contact-title">
+        <h1>Get in touch</h1>
+      </div>
+      <div className="contact-section">
+        <div className="contact-left">
+          <h1>Let's talk</h1>
+          <p>I am currently available to take a new project, so feel free to contact me eny time</p>
+          <div className="contact-details">
+            <div className="contact-detail">
+              <p>melichristian51@gmail.com</p>
             </div>
-            <form onSubmit={onSubmit} className='contact-right' action="">
-                <label htmlFor="">Your Name</label>
-                <input type="text" placeholder='Enter your name...'name='name'/>
-                <label htmlFor="">Your Email</label>
-                <input type="email" placeholder='Enter your email...' name='email' />
-                <label htmlFor="">Write a message</label>
-                <textarea name="message" rows='8' placeholder='Enter your message...' id=""></textarea>
-                <button type='submit' className="contact-submit">Submit now</button>                
-            </form>
+            <div className="contact-detail">
+              <p>+237-653-369-392</p>
+            </div>
+            <div className="contact-detail">
+              <p>Douala- Cameroon</p>
+            </div>
+          </div>
         </div>
+        <form onSubmit={onSubmit} className='contact-right' action="">
+          <label htmlFor="">Your Name</label>
+          <input type="text" placeholder='Enter your name...' name='name' />
+          <label htmlFor="">Your Email</label>
+          <input type="email" placeholder='Enter your email...' name='email' />
+          <label htmlFor="">Write a message</label>
+          <textarea name="message" rows='8' placeholder='Enter your message...' id=""></textarea>
+          <button type='submit' className="contact-submit">Submit now</button>
+        </form>
+      </div>
     </div>
   )
 }

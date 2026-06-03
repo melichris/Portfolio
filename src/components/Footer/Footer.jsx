@@ -10,6 +10,7 @@ const Footer = () => {
             </div>
             <div className="footer-top-right">
                 <div className="footer-email-input">
+                     <i className="bi bi-person" ></i>
                     <input type="email" placeholder='Enter your email...' name='email' />
                 </div>
                 <div className="footer-subscribe">Subscribe</div>
@@ -17,7 +18,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-botton-left">@ 2025 MeliChris. All Rights reserve</p>
+            <p className="footer-botton-left">&copy; 2025 MeliChris. All Rights reserve</p>
             <div className="footer-bottom-right">
                 <p>Terms and services</p>
                 <p>Privacy Policy</p>

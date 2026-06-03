@@ -30,10 +30,10 @@ const MyWork = () => {
                 <img src={work5} alt="" />
                 <img src={work6} alt="" />
             </div>
-            
+
             <div className="mywork-showmore">
                 <p>Show More</p>
-                <img src="" alt="" />
+                <i className="bi bi-arrow-right" ></i>
             </div>
         </div>
     )
